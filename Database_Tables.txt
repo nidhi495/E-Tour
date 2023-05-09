@@ -1,0 +1,29 @@
+create table tours (TourCode varchar(30),TourName varchar(30),City varchar(30),State varchar(30),type varchar(30), StartDate date ,EndDate date ,Duration int ,Cost int, link varchar(500));
+
+insert into tours values("JAK1","Ladhak","Leh","Jammu And Kashmir","General",'2023-03-01','2023-09-29',7,7000,"https://media.istockphoto.com/id/1440543544/photo/karadungla-pass-second-highest-motorable-road-in-the-world.jpg?b=1&s=170667a&w=0&k=20&c=hOyQOK0ik-xn1oWReqKrNPmkpGqcGTpNZ3BdOYTYzZ4=");
+
+insert into tours values("HP1","Cool Manali","Manali","Himachal Pradesh","couple",'2023-03-01','2023-11-12',7,7500,"https://media.istockphoto.com/id/1442248596/photo/lahaul-valley-in-himalayas-himachal-pradesh-india.jpg?b=1&s=170667a&w=0&k=20&c=mrSR4jMJObg8Q3zibdRxvs4ErLkIfrNH5HuPHLHYPJk=");
+insert into tours values("UK1","kedarnath Temple","Kedarnath","Uttarakhand","culture",'2023-04-25','2023-11-14',7,6500,"https://media.istockphoto.com/id/515855602/photo/kedarnath-in-india.jpg?s=612x612&w=0&k=20&c=_KmnQbbvqRftKusDTU_JUjVM3V80Mo2jBqaCNx948us=");
+insert into tours values("UK2","Badrinarayan Temple","badrinath","Uttarakhand","culture",'2023-03-01','2023-11-12',7,6500,"https://cdn.pixabay.com/photo/2018/01/23/15/45/vishnu-temple-3101708__480.jpg");
+insert into tours values("MP1","Omkareshwar Jyotirlinga","omkareshwar","Madhya Pradesh","culture",'2023-03-01','2023-12-31',4,4000,"https://static.toiimg.com/photo/70433543.cms");
+insert into tours values("MH1","goa beach","Goa","Maharashtra","beach",'2023-03-01','2023-12-31',6,8000,"https://cdn.pixabay.com/photo/2017/06/18/15/25/beach-2416143__480.jpg");
+
+insert into tours values( "MP2","mahakaleshwar jyotirlinga","ujjan","Madhya Pradesh","culture",'2023-03-01','2023-12-31',4,3000,"https://media.istockphoto.com/id/1433225182/photo/ghats-of-holy-kshipra-river-in-ujjain-madhya-pradesh-india-in-the-evening.jpg?s=612x612&w=0&k=20&c=xYGjzuVscWJM3XV7bT8c-NzlvFxUhSkuBzI6yYsZ_Dk=");
+
+insert into tours values("MP3","mandu","Dhar","Madhya pradesh","history",'2023-03-01','2023-12-31',3,3000,"https://media.istockphoto.com/id/668729904/photo/jahaz-mahal-ship-palace-in-mandu-india.jpg?s=612x612&w=0&k=20&c=YCpYeBw9mBjcI-AOHg8oM3DaZWiQiKe4QZ1bTF-VSHg=");
+
+insert into tours values("RJ1","pink city","jaipur","Rajasthan","history",'2023-03-01','2023-12-31',5,5000,"https://cdn.pixabay.com/photo/2021/04/06/11/22/hawa-mahal-6156123__480.jpg");
+
+insert into tours values("HP2","Awesome shimla","shimla","Himachal Pradesh","couple",'2023-03-01','2023-11-12',7,7500,"https://media.istockphoto.com/id/1223612731/photo/the-kalka-to-shimla-railway-is-a-2-ft-6-in-narrow-gauge-railway-in-north-india-which.jpg?s=612x612&w=0&k=20&c=-LuDC1w8k30yLqQ-VNuPAfpSGSmuSwuMm3KLNO0Fgls=");
+
+insert into tours values("UP1","Taj Mahal","Agra","Uttar Pradesh","culture",'2023-03-01','2023-12-31',4,3000,"https://cdn.pixabay.com/photo/2019/03/12/20/19/india-4051753__480.jpg");
+
+insert into tours values("JAK2","Couple kashmir","Srinagar","Jammu and Kashmir","couple",'2023-03-01','2023-11-12',5,5500,"https://cdn.pixabay.com/photo/2013/03/07/15/36/kashmir-91218__480.jpg");
+insert into tours values("PJ1","Golden temple","Amritsar","Punjab","culture",'2023-03-01','2023-12-31',5,3500,"https://cdn.pixabay.com/photo/2014/07/20/16/08/golden-temple-397886__480.jpg");
+insert into tours values("MP4","Gwalior fort","Gwalior","Madhya Pradesh","culture",'2023-03-01','2023-12-31',4,6000,"https://media.istockphoto.com/id/481494314/photo/gwalior-fort.jpg?s=612x612&w=0&k=20&c=Jb2GScmEwEwP0FplZswTCa4kmGUqOExjcWFY5H3vT4c=");
+insert into tours values("UK3","Auli","Chamoli","Uttarakhand","couple",'2023-03-01','2023-09-29',7,7000,"https://cdn.pixabay.com/photo/2019/07/08/18/14/background-4325273__480.jpg");
+insert into tours values("UK4","Mansa Devi Temple","Haridwar","Uttarakhand","culture",'2023-03-01','2023-12-31',8,10000,"https://media.istockphoto.com/id/1044399860/photo/ganga-arthi-in-the-holy-city-of-rishikesh-in-uttarakhand-india-to-worship-river-ganga-ganges.jpg?s=612x612&w=0&k=20&c=699WoUWUOKCVzRWOG1mT1dMD7kqQWsQ76-37a_ws5BA=");
+insert into tours values("UK5","Mukteshwar Mahadev Temple","Nanital","Uttarakhand","culture",'2023-03-01','2023-12-31',4,4000,"https://media.istockphoto.com/id/1351096897/photo/entrance-to-mukteshwar-mahadev-temple-located-in-mukteshwar.jpg?s=612x612&w=0&k=20&c=dNEFuWmhqTmtaefUIajV210fUs4HXKmdniFqY0QOS1c=");
+insert into tours values("MH2","Juhu Beach","Mumbai","Maharashtra","beach",'2023-03-01','2023-12-31',4,7000,"https://media.istockphoto.com/id/815480194/photo/mumbai-summer.jpg?s=612x612&w=0&k=20&c=RlaVVRq5L-0QY9q9IxKbxmEyM483-hUHkI3l0KrW0Qw=");
+insert into tours values("TN1","Auroville Beach-pondichery","pondichery","Tamil Nadu","beach",'2023-03-01','2023-12-29',5,5000,"https://media.istockphoto.com/id/488098579/photo/paradise.jpg?s=612x612&w=0&k=20&c=dQwuu1idFwsvqkWOBoebW2jriVivL9mIfikO9GhzSJQ=");
+
